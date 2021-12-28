@@ -1,2 +1,8 @@
 1.	To remove toolbar- in manifest change 
       android:theme="@style/Theme.AppCompat.NoActionBar">
+ and 
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="-68dp"
+        tools:layout_editor_absoluteY="-1dp" />
